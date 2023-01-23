@@ -1,14 +1,12 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavigationBar = () => {
     return (
-        <Navbar bg="light" expand="lg" className='p-4'>
+        <Navbar expand="lg" className='p-5'>
             <Container fluid>
                 <h2 className='me-3' href="#">Ed Tech</h2>
                 <Navbar.Toggle aria-controls="navbarScroll" />
